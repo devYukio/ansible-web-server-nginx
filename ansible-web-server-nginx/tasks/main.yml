@@ -1,0 +1,4 @@
+---
+# Install and configure Nginx Web server (default choice)
+- include_tasks: nginx.yml
+  when: webserver == "nginx"
